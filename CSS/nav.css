@@ -1,0 +1,68 @@
+/* Top nav styles */
+.top-header{
+  background-color: #212121;
+  color: #ffffff;
+  font-family: monospace, arial;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Language links */
+.language-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language-links > .link{
+  width: 100px;
+  text-align: center;
+}
+
+.language-links > .link a{
+  font-family: monospace, arial;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.language-links > .link a:hover{
+  color: #cea135;
+  letter-spacing: 0.75px;
+}
+
+.info-bar{
+  background-color: #434242;
+  color: #ffffff;
+  font-family: monospace, arial;
+}
+
+p{
+  color: white;  
+  font-family: monospace, arial;
+}
+
+/* Tutorial links */
+.tutorial-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutorial-links > .link{
+  width: 100px;
+  text-align: center;
+}
+
+.tutorial-links > .link a{
+  font-family: monospace, arial;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.tutorial-links > .link a:hover{
+  color: #cea135;
+  letter-spacing: 0.75px;
+}
